@@ -117,7 +117,7 @@ https://raw.githubusercontent.com/Simonerrror/ShadowRocket/main/shadowrocket_cus
 3. **Microsoft/Office 365/Teams/OneDrive**
    - Категория `microsoft` собирается из BM7 `Microsoft` и уходит в `PROXY`.
 4. **Community bundle**
-   - Категория `domains_community` собирается из BM7 `Telegram`/`GitHub`/`Steam`/`Riot`/`Origin`/`EA`/`Epic`/`Twitch`/`Pinterest` и уходит в `PROXY`.
+   - Категория `domains_community` собирается из `ai_bundle` (OpenAI/Claude/Copilot/Gemini) и BM7 `Telegram`/`GitHub`/`Steam`/`Riot`/`Origin`/`EA`/`Epic`/`Twitch`/`Pinterest`, затем уходит в `PROXY`.
 5. **Instagram/Threads**
    - `rules/instagram.list` направляется в `PROXY` с `force-remote-dns`.
 6. **Direct для РФ**
