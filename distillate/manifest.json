@@ -47,6 +47,7 @@
       "bucket": "proxy",
       "legacy_rule_path": "rules/domains_community.list",
       "sources": [
+        {"type": "category", "name": "ai_bundle"},
         {"type": "category", "name": "telegram"},
         {"type": "category", "name": "github"},
         {"type": "category", "name": "steam"},

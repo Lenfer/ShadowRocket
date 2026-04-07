@@ -44,10 +44,11 @@
       "name": "domains_community",
       "bucket": "proxy",
       "legacy_rule_path": "rules/domains_community.list",
-      "domains": 380,
-      "ip_cidrs": 22,
+      "domains": 447,
+      "ip_cidrs": 24,
       "ip_asns": 5,
       "dropped": {
+        "ignored_ip_asn": 3,
         "ignored_process_name": 7
       }
     },
@@ -160,7 +161,7 @@
       "name": "greylist_proxy",
       "bucket": "proxy",
       "legacy_rule_path": "rules/greylist_proxy.list",
-      "domains": 0,
+      "domains": 2,
       "ip_cidrs": 0,
       "ip_asns": 0,
       "dropped": {}
@@ -340,8 +341,8 @@
     },
     {
       "name": "sr-proxy",
-      "domains": 1973,
-      "ip_cidrs": 53
+      "domains": 2029,
+      "ip_cidrs": 55
     }
   ]
 }
