@@ -118,9 +118,11 @@ https://raw.githubusercontent.com/Simonerrror/ShadowRocket/main/shadowrocket_cus
    - Категория `microsoft` собирается из BM7 `Microsoft` и уходит в `PROXY`.
 4. **Community bundle**
    - Категория `domains_community` собирается из BM7 `Telegram`/`GitHub`/`Steam`/`Riot`/`Origin`/`EA`/`Epic`/`Twitch`/`Pinterest` и уходит в `PROXY`.
-5. **Direct для РФ**
+5. **Instagram/Threads**
+   - `rules/instagram.list` направляется в `PROXY` с `force-remote-dns`.
+6. **Direct для РФ**
    - Домены `.ru/.рф/.su` и GEOIP RU идут напрямую.
-6. **FINAL**
+7. **FINAL**
    - Всё остальное — в `PROXY`.
 
 ### [Host] / [URL Rewrite]

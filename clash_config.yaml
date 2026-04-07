@@ -108,6 +108,13 @@ rule-providers:
     path: ./rules/domains_community.yaml
     interval: 86400
 
+  instagram:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Simonerrror/ShadowRocket/main/rules/instagram.list"
+    path: ./rules/instagram.yaml
+    interval: 86400
+
   voice_ports:
     type: http
     behavior: classical
@@ -182,6 +189,7 @@ rules:
   - RULE-SET,greylist_proxy,PROXY
   - RULE-SET,microsoft,PROXY
   - RULE-SET,domains_community,PROXY
+  - RULE-SET,instagram,PROXY
   - RULE-SET,voice_ports,PROXY
   - RULE-SET,telegram,PROXY
   - DOMAIN-SUFFIX,ru,DIRECT
