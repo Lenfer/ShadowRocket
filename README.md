@@ -5,6 +5,14 @@ distillate-пайплайне в `distillate/` с публикацией consume
 Проект поддерживает автообновление по URL и разделённую маршрутизацию (Google/Gemini/YouTube,
 Microsoft и curated community/AI bundles).
 
+## Independent: выбранный VPN без NAS
+
+[Скачать Independent.conf](https://raw.githubusercontent.com/Lenfer/ShadowRocket/main/Independent.conf).
+
+Это отдельный профиль правил из Castle Net: наши сервисные исключения идут через текущий выбранный сервер Shadowrocket (например, USA Wormhole или E0F), локальные сети и остальной трафик — DIRECT. DNS использует публичный DoH. Зависимости от NAS, домашнего WireGuard и групп автоматического выбора E0F отсутствуют. В файле нет VPN-ключей и персональных подписок; серверы добавляются отдельно.
+
+Импорт: **Config → + → URL**, вставить ссылку, выбрать **Independent**; затем **Home → нужный сервер → Global Routing: Config**. В `[General]` задан собственный публичный `update-url`; обновление не возвращает прежний EOF/домашний профиль. Секции: `[General]`, `[Rule]`, `[Host]`; 553 правила и 10 внешних RULE-SET. Каноническая сборка и проверки находятся в Castle Net; здесь публикуется готовый файл.
+
 ## Содержание
 
 - [Что внутри](#что-внутри)
